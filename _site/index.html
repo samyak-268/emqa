@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="keywords" content="embodiedqa, embodied question answering, navigation, deep learning, reinforcement learning, computer vision, neural networks, georgia tech, machine learning">
+
+  <link rel="shortcut icon" href="/static/img/ico/favicon.png">
+
+
+
+  <title>Episodic Memory Question Answering</title>
+  <meta name="description" content="Moving towards AI agents that can navigate in virtual environments and answer natural language questions ---">
+
+  <!--Open Graph Related Stuff-->
+  <meta property="og:title" content="Embodied Question Answering"/>
+  <meta property="og:url" content="http://embodiedqa.org"/>
+  <meta property="og:description" content="Moving towards AI agents that can navigate in virtual environments and answer natural language questions ---"/>
+  <meta property="og:site_name" content="Embodied Question Answering"/>
+  <meta property="og:image" content="http://embodiedqa.org/static/img/embodiedqa/teaser.jpg"/>
+  <meta property="og:image:url" content="http://embodiedqa.org/static/img/embodiedqa/teaser.jpg"/>
+
+  <!--Twitter Card Stuff-->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Embodied Question Answering"/>
+  <meta name="twitter:image" content="http://embodiedqa.org/static/img/embodiedqa/teaser.jpg"/>
+  <meta name="twitter:url" content="http://embodiedqa.org"/>
+  <meta name="twitter:description" content="Moving towards AI agents that can navigate in virtual environments and answer natural language questions ---"/>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/main.css" media="screen,projection">
+</head>
+
+  <body>
+    <div class="container">
+      <div class="page-content">
+          <p><br />
+<!-- paper title --></p>
+<div class="row">
+  <div class="col-xs-12">
+    <center>
+      <h1>Episodic Memory Question Answering</h1>
+    </center>
+  </div>
+</div>
+
+<!-- 
+  author list (line 1)
+  -- the negative left margins for individual name divs is to make the names appear closer together
+  might need to manually adjust if more names are added etc.
+  -- the negative top margin for the whole div is to get it closer to the title
+-->
+<p><br /></p>
+<div class="row" style="margin-top:-25px;">
+  <div class="col-xs-3" style="margin-left:25px;">
+    <center>
+      <!-- color:#1a1aff -->
+      <a style="font-size: 20px;font-weight:200;" href="https://samyak-268.github.io/">
+        Samyak Datta <sup>1</sup>
+      </a>
+    </center>
+  </div>
+  
+  <div class="col-xs-3" style="margin-left:-25px;">
+    <center>
+      <!-- color:#1a1aff -->
+      <a style="font-size: 20px;font-weight:200;" href="https://sameerdharur.github.io/">
+        Sameer Dharur <sup>1</sup>
+      </a>
+    </center>
+  </div>
+  
+  <div class="col-xs-3" style="margin-left:-25px;">
+    <center>
+      <!-- color:#1a1aff -->
+      <a style="font-size: 20px;font-weight:200;" href="https://vincentcartillier.github.io/">
+        Vincent Cartillier <sup>1</sup>
+      </a>
+    </center>
+  </div>
+  
+  <div class="col-xs-3" style="margin-left:-25px;">
+    <center>
+      <!-- color:#1a1aff -->
+      <a style="font-size: 20px;font-weight:200;" href="https://rutadesai.github.io/">
+        Ruta Desai <sup>2</sup>
+      </a>
+    </center>
+  </div>
+</div>
+
+<!-- 
+  author list (line 2)
+  the negative margins for divs is to make the names appear closer together
+  might need to manually adjust if more names are added etc.
+-->
+<p><br /></p>
+<div class="row" style="margin-top:-15px;">
+  <div class="col-xs-4" style="margin-left:100px;">
+    <center>
+      <!-- color:#1a1aff -->
+      <a style="font-size: 20px;font-weight:200;" href="https://mukulkhanna.github.io/">
+        Mukul Khanna
+      </a>
+    </center>
+  </div>
+  
+  <div class="col-xs-4" style="margin-left:-100px;">
+    <center>
+      <!-- color:#1a1aff -->
+      <a style="font-size: 20px;font-weight:200;" href="https://faculty.cc.gatech.edu/~dbatra/">
+        Dhruv Batra <sup>3</sup>
+      </a>
+    </center>
+  </div>
+  
+  <div class="col-xs-4" style="margin-left:-100px;">
+    <center>
+      <!-- color:#1a1aff -->
+      <a style="font-size: 20px;font-weight:200;" href="https://faculty.cc.gatech.edu/~parikh/">
+        Devi Parikh <sup>3</sup>
+      </a>
+    </center>
+  </div>
+</div>
+
+<!-- 
+  affiliations list
+-->
+<p><br /><br /></p>
+<div class="row">
+  <div class="col-xs-4">
+    <center>
+      <!-- color:#1a1aff -->
+      <p style="font-size: 20px;font-weight:200;">
+        <sup>1</sup> Georgia Tech
+      </p>
+    </center>
+  </div>
+  
+  <div class="col-xs-4">
+    <center>
+      <!-- color:#1a1aff -->
+      <p style="font-size: 20px;font-weight:200;">
+        <sup>2</sup> Meta Reality Labs Research
+      </p>
+    </center>
+  </div>
+  
+  <div class="col-xs-4">
+    <center>
+      <!-- color:#1a1aff -->
+      <p style="font-size: 20px;font-weight:200;">
+        <sup>3</sup> Meta AI Research
+      </p>
+    </center>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12" style="margin-top:-20px;">
+    <center>
+      <img src="/static/img/emqa/teaser.png" />
+    </center>
+  </div>
+</div>
+
+<!-- 
+  abstract
+-->
+<div class="row">
+  <div class="col-xs-12">
+    <center>
+      <h1>Abstract</h1>
+    </center>
+    <br />
+    <p>
+      Egocentric augmented reality devices such as wearable glasses passively capture visual data as a human wearer tours a home environment. We envision a scenario wherein the human communicates with an AI agent powering such a device by asking questions (e.g., ``where did you last see my keys?''). In order to succeed at this task, the egocentric AI assistant must (1) construct semantically rich and efficient scene memories that encode spatio-temporal information about objects seen during the tour and (2) possess the ability to understand the question and ground its answer into the semantic memory representation. Towards that end, we introduce (1) a new task — Episodic Memory Question Answering (EMQA) wherein an egocentric AI assistant is provided with a video sequence (the tour) and a question as an input and is asked to localize its answer to the question within the tour, (2) a dataset of grounded questions designed to probe the agent’s spatio-temporal understanding of the tour, and (3) a model for the task that encodes the scene as an allocentric, top-down semantic feature map and grounds the question into the map to localize the answer. We show that our choice of episodic scene memory outperforms naive, off-the-shelf solutions for the task as well as a host of very competitive baselines and is robust to noise in depth, pose as well as camera jitter.
+    </p>
+  </div>
+</div>
+
+<p><br /><br /></p>
+<hr />
+
+<!-- 
+  video
+-->
+<div class="row">
+  <div class="col-xs-12">
+    <center>
+      <h1>Video</h1>
+    </center>
+    <br />
+    <center>
+      <iframe width="100%" height="500" src="https://youtube.com/embed/_K5CPq8kuRE" allowfullscreen=""></iframe>
+    </center>
+  </div>
+</div>
+
+<p><br /><br /></p>
+<hr />
+
+<!-- 
+  paper
+-->
+<div class="row">
+  <center>
+    <h1>Paper</h1>
+  </center>
+  <div class="col-xs-6">
+    <a href="">
+        <img height="400" width="400" src="/static/img/emqa/thumb.png" />
+    </a>
+  </div>
+  
+  <div class="col-xs-6">
+    <h2 style="color:#873e23;font-size:20px;font-weight:375;">
+      Episodic Memory Question Answering
+    </h2>
+
+    <p style="font-size:15px;font-weight:400;">
+      Samyak Datta, Sameer Dharur, Vince Cartillier, Ruta Desai, Mukul Khanna, Dhruv Batra, Devi Parikh
+    </p>
+
+    <p style="color:red;font-size:15px;font-weight:400;">
+      CVPR 2022 (Oral)
+    </p>
+    <br />
+    
+    
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">      @inproceedings<span class="o">{</span>datta2022episodic,
+      <span class="nv">title</span><span class="o">={</span>Episodic Memory Question Answering<span class="o">}</span>,
+      <span class="nv">author</span><span class="o">={</span>Datta, Samyak and Dharur, Sameer and Cartillier, Vince and Desai, Ruta and Khanna, Mukul and Batra, Dhruv and Parikh, Devi<span class="o">}</span>,
+      <span class="nv">booktitle</span><span class="o">={</span>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition<span class="o">}</span>,
+      <span class="nv">year</span><span class="o">={</span>2022<span class="o">}</span>
+      <span class="o">}</span>
+    </code></pre></figure>
+
+  </div>
+</div>
+
+<p><br /><br /></p>
+<hr />
+
+<!-- 
+  data+code
+-->
+<div class="row">
+  <center>
+    <h1>Code + Data</h1><br />
+    <span style="color:#873e23;font-size:20px;font-weight:375;">Coming soon!</span>
+  </center>
+</div>
+
+<p><br /></p>
+<hr />
+
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Acknowledgements</h2>
+  </div>
+</div>
+<p><a name="/acknowledgements"></a></p>
+<div class="row">
+  <div class="col-xs-12">
+    <p>
+      We are grateful to the developers of PyTorch for building an excellent framework. The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Government, or any sponsor. The webpage template was borrowed from https://embodiedqa.org .
+    </p>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
