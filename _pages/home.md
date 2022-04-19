@@ -86,7 +86,7 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
     <center>
       <!-- color:#1a1aff -->
       <a style="font-size: 20px;font-weight:200;" href="https://faculty.cc.gatech.edu/~dbatra/">
-        Dhruv Batra <sup>3</sup>
+        Dhruv Batra <sup>1,3</sup>
       </a>
     </center>
   </div>
@@ -95,7 +95,7 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
     <center>
       <!-- color:#1a1aff -->
       <a style="font-size: 20px;font-weight:200;" href="https://faculty.cc.gatech.edu/~parikh/">
-        Devi Parikh <sup>3</sup>
+        Devi Parikh <sup>1,3</sup>
       </a>
     </center>
   </div>
