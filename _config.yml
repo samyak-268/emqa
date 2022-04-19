@@ -1,9 +1,9 @@
-title: Embodied Question Answering
-email: abhshkdz@gatech.edu
-description: Moving towards AI agents that can navigate in virtual environments and answer natural language questions
+title: Episodic Memory Question Answering
+email: datta.samyak@gmail.com
+description:
   ---
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://embodiedqa.org" # the base hostname & protocol for your site
+baseurl: "/emqa" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
