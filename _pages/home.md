@@ -4,7 +4,7 @@ urltitle:  "Episodic Memory Question Answering"
 title: "Episodic Memory Question Answering"
 categories: embodied ai, egocentric, augmented reality, personal assistants, computer vision, natural language processing
 permalink: /
-favicon: /static/img/emqa/favicon.png
+favicon: "/emqa/static/img/emqa/favicon.png"
 bibtex: true
 paper: true
 acknowledgements: "We are grateful to the developers of PyTorch for building an excellent framework.
@@ -138,7 +138,7 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
 <div class="row">
   <div class="col-xs-12" style="margin-top:-20px;">
     <center>
-      <img src="/static/img/emqa/teaser.png">
+      <img src="{{ "/static/img/emqa/teaser.png" | prepend:site.baseurl }}">
     </center>
   </div>
 </div>
@@ -188,7 +188,7 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
   </center>
   <div class="col-xs-6">
     <a href="">
-        <img height="400" width="400" src="/static/img/emqa/thumb.png">
+        <img height="400" width="400" src="{{ "/static/img/emqa/thumb.png" | prepend:site.baseurl }}">
     </a>
   </div>
   
