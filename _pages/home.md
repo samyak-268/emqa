@@ -236,15 +236,12 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
 {% if page.acknowledgements %}
 <div class="row">
   <div class="col-xs-12">
-    <h2>License and Acknowledgements</h2>
+    <h2>Acknowledgements</h2>
   </div>
 </div>
 <a name="/acknowledgements"></a>
 <div class="row">
   <div class="col-xs-12">
-    <p>
-      Matterport license available <a href="{{ "/static/pdf/mp3d_license.pdf" | prepend:site.baseurl }}">here</a>
-    </p>
     <p>
       {{ page.acknowledgements }}
     </p>
