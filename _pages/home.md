@@ -39,7 +39,7 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
         Vincent Cartillier <sup>1</sup>
       </a>&nbsp; &nbsp;
       <a style="font-size: 20px;font-weight:200;" href="https://rutadesai.github.io/">
-        Ruta Desai <sup>1</sup>
+        Ruta Desai <sup>2</sup>
       </a>
     </center>
   </div>
@@ -53,13 +53,13 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
   <div class="col-xs-12">
     <center>
       <a style="font-size: 20px;font-weight:200;" href="https://mukulkhanna.github.io/">
-        Mukul Khanna <sup>1</sup>
+        Mukul Khanna
       </a>&nbsp; &nbsp;
       <a style="font-size: 20px;font-weight:200;" href="https://faculty.cc.gatech.edu/~dbatra/">
-        Dhruv Batra <sup>1</sup>
+        Dhruv Batra <sup>1,3</sup>
       </a>&nbsp; &nbsp;
       <a style="font-size: 20px;font-weight:200;" href="https://faculty.cc.gatech.edu/~parikh/">
-        Devi Parikh <sup>1</sup>
+        Devi Parikh <sup>1,3</sup>
       </a>
     </center>
   </div>
