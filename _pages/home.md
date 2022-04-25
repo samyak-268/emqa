@@ -23,44 +23,23 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
 
 <!-- 
   author list (line 1)
-  -- the negative left margins for individual name divs is to make the names appear closer together
-  might need to manually adjust if more names are added etc.
   -- the negative top margin for the whole div is to get it closer to the title
 -->
 <br>
 <div class="row" style="margin-top:-25px;">
-  <div class="col-xs-3" style="margin-left:25px;">
+  <div class="col-xs-12">
     <center>
-      <!-- color:#1a1aff -->
       <a style="font-size: 20px;font-weight:200;" href="https://samyak-268.github.io/">
         Samyak Datta <sup>1</sup>
-      </a>
-    </center>
-  </div>
-  
-  <div class="col-xs-3" style="margin-left:-25px;">
-    <center>
-      <!-- color:#1a1aff -->
+      </a>&nbsp; &nbsp;
       <a style="font-size: 20px;font-weight:200;" href="https://sameerdharur.github.io/">
         Sameer Dharur <sup>1</sup>
-      </a>
-    </center>
-  </div>
-  
-  <div class="col-xs-3" style="margin-left:-25px;">
-    <center>
-      <!-- color:#1a1aff -->
+      </a>&nbsp; &nbsp;
       <a style="font-size: 20px;font-weight:200;" href="https://vincentcartillier.github.io/">
         Vincent Cartillier <sup>1</sup>
-      </a>
-    </center>
-  </div>
-  
-  <div class="col-xs-3" style="margin-left:-25px;">
-    <center>
-      <!-- color:#1a1aff -->
+      </a>&nbsp; &nbsp;
       <a style="font-size: 20px;font-weight:200;" href="https://rutadesai.github.io/">
-        Ruta Desai <sup>2</sup>
+        Ruta Desai <sup>1</sup>
       </a>
     </center>
   </div>
@@ -68,75 +47,49 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
 
 <!-- 
   author list (line 2)
-  the negative margins for divs is to make the names appear closer together
-  might need to manually adjust if more names are added etc.
 -->
 <br>
-<div class="row" style="margin-top:-15px;">
-  <div class="col-xs-4" style="margin-left:100px;">
+<div class="row" style="margin-top:-25px;">
+  <div class="col-xs-12">
     <center>
-      <!-- color:#1a1aff -->
       <a style="font-size: 20px;font-weight:200;" href="https://mukulkhanna.github.io/">
-        Mukul Khanna
-      </a>
-    </center>
-  </div>
-  
-  <div class="col-xs-4" style="margin-left:-100px;">
-    <center>
-      <!-- color:#1a1aff -->
+        Mukul Khanna <sup>1</sup>
+      </a>&nbsp; &nbsp;
       <a style="font-size: 20px;font-weight:200;" href="https://faculty.cc.gatech.edu/~dbatra/">
-        Dhruv Batra <sup>1,3</sup>
-      </a>
-    </center>
-  </div>
-  
-  <div class="col-xs-4" style="margin-left:-100px;">
-    <center>
-      <!-- color:#1a1aff -->
+        Dhruv Batra <sup>1</sup>
+      </a>&nbsp; &nbsp;
       <a style="font-size: 20px;font-weight:200;" href="https://faculty.cc.gatech.edu/~parikh/">
-        Devi Parikh <sup>1,3</sup>
+        Devi Parikh <sup>1</sup>
       </a>
     </center>
   </div>
 </div>
-
 
 <!-- 
   affiliations list
 -->
 <br><br>
-<div class="row">
-  <div class="col-xs-4">
+<div class="row" style="margin-top:-25px;">
+  <div class="col-xs-12">
     <center>
-      <!-- color:#1a1aff -->
-      <p style="font-size: 20px;font-weight:200;">
+      <span style="font-size: 20px;font-weight:200;" href="">
         <sup>1</sup> Georgia Tech
-      </p>
-    </center>
-  </div>
-  
-  <div class="col-xs-4">
-    <center>
-      <!-- color:#1a1aff -->
-      <p style="font-size: 20px;font-weight:200;">
+      </span>&nbsp; &nbsp;
+      <span style="font-size: 20px;font-weight:200;" href="">
         <sup>2</sup> Meta Reality Labs Research
-      </p>
-    </center>
-  </div>
-  
-  <div class="col-xs-4">
-    <center>
-      <!-- color:#1a1aff -->
-      <p style="font-size: 20px;font-weight:200;">
+      </span>&nbsp; &nbsp;
+      <span style="font-size: 20px;font-weight:200;" href="">
         <sup>3</sup> Meta AI Research
-      </p>
+      </span>
     </center>
   </div>
 </div>
 
+<!-- 
+  teaser figure
+-->
 <div class="row">
-  <div class="col-xs-12" style="margin-top:-20px;">
+  <div class="col-xs-12">
     <center>
       <img src="{{ "/static/img/emqa/teaser.png" | prepend:site.baseurl }}">
     </center>
