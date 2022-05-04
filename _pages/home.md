@@ -140,7 +140,7 @@ The Georgia Tech effort was supported in part by NSF, ONR YIP, and ARO PECASE. T
     <h1>Paper</h1>
   </center>
   <div class="col-xs-6">
-    <a href="">
+    <a href="https://arxiv.org/abs/2205.01652">
         <img height="400" width="400" src="{{ "/static/img/emqa/thumb.png" | prepend:site.baseurl }}">
     </a>
   </div>
